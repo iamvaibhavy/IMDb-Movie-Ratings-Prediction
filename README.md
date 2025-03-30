@@ -65,13 +65,13 @@ G. Evaluation Metrics
 
 ## 📊 Performance Evaluation:-	  
 ### Initial Model:-
-MAE - X.XXX	           
-RMSE - X.XXX	            
-R² Score - X.XX   
+MAE - 32.9%	           
+RMSE - 60.3%            
+R² Score - 62.6%   
 ### Tuned Model:-
-MAE - X.XXX	           
-RMSE - X.XXX	            
-R² Score - X.XX 
+MAE - 32.5%	           
+RMSE - 60.0%	            
+R² Score - 63.0% 
 
 
 

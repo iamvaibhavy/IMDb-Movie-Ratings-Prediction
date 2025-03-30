@@ -48,17 +48,17 @@ G. Evaluation Metrics
 
 
 ## 🔄 Preprocessing Summary:-
-A. Handling Missing Data	                                     
+### A. Handling Missing Data	                                     
 1. Categorical values → "Unknown"
 2. Numeric values → Filled with median
-B. Feature Transformation
+### B. Feature Transformation
 1. Extracted numeric Year
 2. Converted Duration to float
 3. Converted Votes to numeric
-C. Feature Engineering
+### C. Feature Engineering
 1. Added Director Success Rate
 2. Added Genre Average Rating
-D. Encoding
+### D. Encoding
 1. Label Encoding categorical features
 
 

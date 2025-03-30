@@ -7,10 +7,10 @@ This project aims to predict IMDb movie ratings using a Random Forest Regressor 
 
 ## 🛠 Approach:-
 The project follows these key steps:
-### Data Collection & Loading
+## Data Collection & Loading
 1. The dataset used is IMDb Movies India.csv.
 2. It is loaded using pandas.read_csv(), handling encoding issues (latin1 encoding).
-### Data Preprocessing
+## Data Preprocessing
 A. Handling Missing Values
 1. Categorical columns are filled with "Unknown".
 2. Numeric columns are filled with the median value.
@@ -48,22 +48,30 @@ G. Evaluation Metrics
 
 
 ## 🔄 Preprocessing Summary:-
-  Step	                                                          Action Taken
-Handling Missing Data	                                     Categorical values → "Unknown"
-                                                           Numeric values → Filled with median
-Feature Transformation	                                   Extracted numeric Year
-                                                           Converted Duration to float
-                                                           Converted Votes to numeric
-Feature Engineering	                                       Added Director Success Rate
-                                                           Added Genre Average Rating
-Encoding	                                                 Label Encoding categorical features
+A. Handling Missing Data	                                     
+1. Categorical values → "Unknown"
+2. Numeric values → Filled with median
+B. Feature Transformation
+1. Extracted numeric Year
+2. Converted Duration to float
+3. Converted Votes to numeric
+C. Feature Engineering
+1. Added Director Success Rate
+2. Added Genre Average Rating
+D. Encoding
+1. Label Encoding categorical features
 
 
 
-## 📊 Performance Evaluation:-
-Model	                                                     MAE	           RMSE	            R² Score
-Initial Model	                                             X.XX            X.XXX	          X.XXX
-Tuned Model	                                               X.XXX	         X.XXX	          X.XXX
+## 📊 Performance Evaluation:-	  
+### Initial Model:-
+MAE - X.XXX	           
+RMSE - X.XXX	            
+R² Score - X.XX   
+### Tuned Model:-
+MAE - X.XXX	           
+RMSE - X.XXX	            
+R² Score - X.XX 
 
 
 
@@ -82,7 +90,7 @@ Tuned Model	                                               X.XXX	         X.XXX	
 
 
 
-## 📌 Conclusion
+## 📌 Conclusion:-
 This project successfully builds an IMDb rating prediction model using Random Forest Regression with optimized hyperparameters. The approach ensures proper data cleaning, feature engineering, and model evaluation, achieving a well-performing model for movie rating prediction.
 
 
